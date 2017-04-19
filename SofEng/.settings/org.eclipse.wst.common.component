@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SofEng">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <dependent-module archiveName="jackson-databind-2.4.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.4.1.3/jackson-databind-2.4.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.4.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.4.1/jackson-annotations-2.4.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.6.1/slf4j-api-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.1/commons-collections-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jta-1.1/jta-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate3/hibernate3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-jpa-2.0-api-1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-ehcache-3.6.10.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-ehcache-3.6.10.Final/hibernate-ehcache-3.6.10.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.36-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.36-bin/mysql-connector-java-5.1.36-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6.1/dom4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.4.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.4.1.1/jackson-core-2.4.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-3.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ehcache-3.2.0/ehcache-3.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-core-2.4.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ehcache-core-2.4.3/ehcache-core-2.4.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.8.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.8.5/jackson-databind-2.8.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.2.0-rc1-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.2.0-rc1-sources/jackson-databind-2.2.0-rc1-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.0.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.12.0.GA/javassist-3.12.0.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.6/antlr-2.7.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SofEng"/>
+        <property name="java-output-path" value="/SofEng/build/classes"/>
+    </wb-module>
+</project-modules>
